@@ -172,3 +172,6 @@ App runs at `http://localhost:8080`. No API keys required (CoinGecko public endp
 - Historical performance per-coin (30d / 90d / 1y)
 - Portfolio tracking with P/L
 - Export comparison to image / share link
+
+# CryptoCurrency_Market_Dashboard
+A live crypto intelligence dashboard that transforms raw market data into meaningful insights. Instead of just displaying numbers, the system continuously tracks and updates cryptocurrency trends, giving users a near real-time pulse of the market.
