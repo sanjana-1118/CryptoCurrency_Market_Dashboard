@@ -154,8 +154,7 @@ export function Insights({ coins, loading, fearGreed }: InsightsProps) {
           AI Summary
         </div>
         <div className="text-sm text-foreground/90 leading-snug truncate">{summary}</div>
-      </Card>  */}
-
+      </Card> 
       <Card className="px-4 py-2.5 flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3 bg-gradient-to-r from-primary/5 via-card to-card border-primary/20">
       <div className="flex items-center gap-2 flex-shrink-0">
       <div className="h-7 w-7 rounded-md bg-primary/10 text-primary flex items-center justify-center">
@@ -168,7 +167,21 @@ export function Insights({ coins, loading, fearGreed }: InsightsProps) {
         <div className="text-sm text-foreground/90 leading-relaxed sm:leading-snug">
           {summary}
         </div>
-      </Card> 
+      </Card>  */}
+
+      <Card className="px-4 py-3 flex flex-col sm:flex-row items-start sm:items-center gap-3 bg-gradient-to-r from-primary/5 via-card to-card border-primary/20 min-h-fit">
+    <div className="flex items-center gap-3 flex-shrink-0">
+    <div className="h-7 w-7 rounded-md bg-primary/10 text-primary flex items-center justify-center">
+      <Sparkles className="h-3.5 w-3.5" />
+    </div>
+    <div className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground">
+      AI Summary
+    </div>
+  </div>
+  <div className="text-sm text-foreground/90 leading-relaxed whitespace-normal break-words flex-1">
+    {summary}
+  </div>
+</Card>
     
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
       <InsightCard
